@@ -2,9 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:500,700');
 
 $pink: rgb(214, 40, 127);
-$light-pink: #81378a;
+$purple: #81378a;
+$dim-pink: #fdf6fa;
 
 $family-sans-serif: "Quicksand", sans-serif;
 $primary: $pink;
-$link: $light-pink;
+$link: $purple;
+
+$body-color: $link;
+
+.box:hover {
+    background-color: $dim-pink;
+}
 @import "../bulma-0.7.2/bulma.sass"
